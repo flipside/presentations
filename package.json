@@ -1,16 +1,17 @@
 {
   "name": "persentations",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Presentations by Mat Tyndall",
   "homepage": "http://flipside.github.io/presentations/",
-  "scripts": {
-    "start": ""
-  },
   "author": "Mat Tyndall <mat@tinj.com> (http://tinj.com/)",
+  "scripts": {
+    "start": "node web.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/flipside/presentations"
   },
+  "main": "web.js",
   "dependencies": {
   },
   "devDependencies": {
