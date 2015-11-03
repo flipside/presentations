@@ -1,6 +1,6 @@
 {
   "name": "persentations",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Presentations by Mat Tyndall",
   "homepage": "http://flipside.github.io/presentations/",
   "author": "Mat Tyndall <mat@tinj.com> (http://tinj.com/)",
@@ -13,6 +13,7 @@
   },
   "main": "web.js",
   "dependencies": {
+    "express": "^4.13.3"
   },
   "devDependencies": {
   },

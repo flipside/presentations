@@ -1,9 +1,9 @@
+'use strict';
 var express = require('express');
-var app = express.createServer();
-var port = process.env.PORT || 5000;
+var app = express();
+var PORT = process.env.PORT || 5000;
 
-app.use(express.logger());
 app.use('/', express.static(__dirname));
-app.listen(port, function() {
-  console.log('Server started on ' + port);
+app.listen(PORT, function() {
+  console.log('Presentation server started on ' + PORT);
 });
